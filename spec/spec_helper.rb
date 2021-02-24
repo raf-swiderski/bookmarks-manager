@@ -11,8 +11,6 @@ require 'simplecov-console'
 require 'db_helpers'
 require 'pg'
 
-p ENV['ENVIRONMENT']
-
 Capybara.app = BookmarkManager
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([

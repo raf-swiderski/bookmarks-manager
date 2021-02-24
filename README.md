@@ -1,4 +1,4 @@
-# bookmark
+`# bookmark
 
 >As a user
 >
@@ -15,4 +15,13 @@
 4. Run the query saved in the file 01_create_bookmarks_table.sql
 5. Create new test db
 6. Create identical test table in your db
+
+## add new bookmarks
+
+User story:
+```
+As a user
+So that I can save my favourite pages' urls
+I want to be able to add bookmarks to my list
+```
 

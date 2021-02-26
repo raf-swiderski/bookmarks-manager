@@ -1,2 +1,12 @@
 <h1>Here are your bookmarks</h1>
-<%= @bookmark_list %>
+<ul>
+  <% @bookmarks.each do |bookmark| %>
+    <li>
+      <a href="<%= bookmark.url %>">
+        <%= bookmark.title %>
+      </a>
+    </li>
+  <% end %>
+</ul>
+
+

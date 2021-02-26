@@ -1,12 +1,13 @@
 require 'sinatra/base'
 require './lib/bookmark.rb'
+require 'pg'
 
 class BookmarkManager < Sinatra::Base
-  enable :sessions
-  set :session_secret, ENV['SESSION_SECRET']
+  # enable :sessions
+  # set :session_secret, ENV['SESSION_SECRET']
 
   before do
-    @bookmark_list = Bookmark.all
+    @bookmarks = Bookmark.all
   end
 
   get '/' do
@@ -14,7 +15,6 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
-    @bookmark_list << session[:url]
     erb :bookmarks
   end
 
@@ -23,7 +23,7 @@ class BookmarkManager < Sinatra::Base
   end
 
   post '/bookmarks' do
-    session[:url] = params[:url]
+    Bookmark.create(url: params[:url], title: params[:title])
     redirect '/bookmarks'
   end
 

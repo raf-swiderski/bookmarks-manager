@@ -1,8 +1,38 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/adamjonas/Projects/makers/week-4/pairing-bookmark-manager/bookmarks-manager/spec/features/adding_bookmarks_spec.rb": {
+      "/Users/raf/Projects/Week4/bookmark/spec/features/adding_bookmarks_spec.rb": {
         "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/raf/Projects/Week4/bookmark/spec/features/testing_homepage_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/raf/Projects/Week4/bookmark/spec/features/viewing_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
           1,
           1,
           1,
@@ -14,8 +44,34 @@
           null
         ]
       },
-      "/Users/adamjonas/Projects/makers/week-4/pairing-bookmark-manager/bookmarks-manager/spec/features/testing_homepage_spec.rb": {
+      "/Users/raf/Projects/Week4/bookmark/spec/unit/bookmark_list_spec.rb": {
         "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -25,48 +81,7 @@
           null
         ]
       },
-      "/Users/adamjonas/Projects/makers/week-4/pairing-bookmark-manager/bookmarks-manager/spec/features/viewing_bookmarks_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/adamjonas/Projects/makers/week-4/pairing-bookmark-manager/bookmarks-manager/spec/unit/bookmark_list_spec.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/adamjonas/Projects/makers/week-4/pairing-bookmark-manager/bookmarks-manager/lib/Bookmark.rb": {
+      "/Users/raf/Projects/Week4/bookmark/lib/Bookmark.rb": {
         "lines": [
           1,
           null,
@@ -74,23 +89,40 @@
           1,
           null,
           1,
-          10,
-          10,
+          18,
+          18,
+          18,
+          null,
+          null,
+          1,
+          8,
+          8,
           null,
           0,
           null,
+          8,
+          8,
           10,
-          25,
+          null,
           null,
           null,
           1,
-          1,
+          8,
+          8,
+          null,
+          0,
+          null,
+          8,
+          8,
+          null,
+          null,
+          null,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1614183520
+    "timestamp": 1614357454
   }
 }
